@@ -3,6 +3,9 @@
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "files": [
     "dist",
     "src"
@@ -30,7 +33,7 @@
       "pre-commit": "tsdx lint"
     }
   },
-  "name": "example-library",
+  "name": "@gideonnn/example-library",
   "author": "Gideon Spierings",
   "module": "dist/example-library.esm.js",
   "size-limit": [
