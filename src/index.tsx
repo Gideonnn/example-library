@@ -1,4 +1,5 @@
 import * as React from 'react';
+export * from './components/ThemeProvider/ThemeProvider';
 
 // Delete me
 export const Thing = () => {
